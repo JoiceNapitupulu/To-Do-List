@@ -1,0 +1,64 @@
+/* Using Inter font as the main font */
+body {
+    font-family: 'Inter', sans-serif;
+    /* Using a soft gradient background matching the palette */
+    background: linear-gradient(135deg, #fff5e4, #ffc4c4);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Custom styling for the To-Do List card */
+.card {
+    box-shadow: 0 25px 50px -12px rgba(133, 14, 53, 0.25); /* Dark Berry Shadow */
+}
+
+/* Styling for completed task text */
+.task-completed {
+    text-decoration: line-through;
+    color: #850e35; /* Dark Berry */
+    opacity: 0.6;
+}
+
+/* Playfair Display styling for the main title */
+.main-title {
+    font-family: 'Monotype Corsiva', 'Playfair Display', serif;
+}
+
+.task-flow-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.pinyon-script {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 1.5em;
+}
+
+.pinyon-script-d {
+    margin-right: 0.05em;
+}
+
+.pinyon-script-p {
+    margin-right: 0.1em;
+}
+
+/* Color Palette Classes */
+.color-dark-berry { color: #850e35; }
+.bg-color-dark-berry { background-color: #850e35; }
+.bg-color-mid-pink { background-color: #ee6983; }
+.bg-color-off-white { background-color: #fff5e4; }
+.bg-color-light-pink { background-color: #ffc4c4; }
+.text-color-mid-pink { color: #ee6983; }
+
+/* Ensuring input and button look good on mobile and focus */
+#task-input, #task-deadline {
+    transition: all 0.3s;
+    border-color: #ee6983; /* Mid Pink border */
+}
+#task-input:focus, #task-deadline:focus {
+    box-shadow: 0 0 0 3px rgba(238, 105, 131, 0.4); /* Mid Pink shadow on focus */
+}

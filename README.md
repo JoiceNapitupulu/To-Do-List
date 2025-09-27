@@ -7,7 +7,6 @@ This is a simple and elegant to-do list application with a clean and modern aest
 ## Project Structure
 
 ```
-d:\DummyProject\To-do-list\
 ├───index.html
 ├───style.css
 ├───script.js

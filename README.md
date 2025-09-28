@@ -15,15 +15,8 @@ This is a simple and elegant to-do list application with a clean and modern aest
 
 ## Setup Instructions
 
-1.  **Clone the repository:**
-    ```bash
-    git clone <repository-url>
-    ```
-2.  **Navigate to the project directory:**
-    ```bash
-    cd To-do-list
-    ```
-3.  **Open `index.html` in your browser.**
+1. Clone the repository or download the project files.
+2. Open the `index.html` file in your web browser to view the portfolio application.
 
     *Note: For Firebase integration, you will need to create a Firebase project and add your Firebase configuration to the `script.js` file.*
 

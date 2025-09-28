@@ -1,4 +1,4 @@
-# Elegant To-Do List
+# To-Do List
 
 ## Overview
 

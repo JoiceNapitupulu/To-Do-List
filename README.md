@@ -32,13 +32,12 @@ Before you begin, ensure you have the following prerequisites:
 2.  (Optional) A Firebase account for real-time data synchronization.
 
 ## Project Structure
-
-.
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-
+```
+├───index.html
+├───style.css
+├───script.js
+└───README.md
+```
 
 ## Usage Examples
 
